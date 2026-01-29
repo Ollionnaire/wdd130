@@ -49,19 +49,25 @@ h1 {
   color: #fff; /* white text – make sure there is enough contrast with the background-color */
 }
 .hero article img {
-  float: right;
+  position:absolute;
+  float: left;
   width: 125px;
+  right: 10px;
+}
+.hero article p {
+  margin-right: 140px;
 }
 article {
-  background-color: var(--accent1-color);
+  position: absolute;
+  background-color: var(--accent2-color);
   color: #fff;
   padding: 10px;
-  border: 10 px solid rgb(92, 92, 198);
+  border: 1px solid black;
   position:absolute;
   bottom: 10px;
 }
 h2{
-  background-color: var(--accent1-color);
+  background-color: var(--secondary-color);
   color:white;
   text-align: center;
   padding: 10px;
