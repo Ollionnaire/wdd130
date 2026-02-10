@@ -6,7 +6,7 @@
     <meta name="description" content="Whitewater rafting is a type of recreation that involves navigating a non-motorized watercraft down free flowing rivers.">
     <meta name="author" content="Oliver Khensky OCXILAS">
     <link rel="stylesheet" href="styles/rafting.css">
-    <title>Contact.</title>
+    <title>Contact Us</title>
 </head>
 <body>
     <header>
@@ -29,31 +29,31 @@
             <p>info@whitewater.com</p>
         </div>
         <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30885768.006991055!2d-109.68710870000002!3d19.097328400000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb03109372372b5%3A0x4de9ce3ad2852274!2sJaraventura%20-%20Rafting%20Tubing%20Canyoning%20Senderismo!5e0!3m2!1sfr!2sht!4v1770676558889!5m2!1sfr!2sht" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30885768.006991055!2d-109.68710870000002!3d19.097328400000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb03109372372b5%3A0x4de9ce3ad2852274!2sJaraventura%20-%20Rafting%20Tubing%20Canyoning%20Senderismo!5e0!3m2!1sfr!2sht!4v1770676558889!5m2!1sfr!2sht" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <form class="contact-form">
 
                 <div class="form-group">
-                    <label>Name</label>
-                    <input type="text" placeholder="Placeholder">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Placeholder">
                 </div>
 
                 <div class="form-group">
-                    <label>Email</label>
-                    <input type="email" placeholder="Placeholder">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Placeholder">
                 </div>
 
                 <div class="form-group">
-                    <label>Message Purpose</label>
+                    <label for="message-purpose">Message Purpose</label>
                     <div class="radio-group">
-                        <label><input type="radio" name="purpose"> General Inquiry</label>
-                        <label><input type="radio" name="purpose"> Reservation Question</label>
-                        <label><input type="radio" name="purpose"> Website Suggestion</label>
+                        <label><input type="radio" name="purpose" value="general"> General Inquiry</label>
+                        <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                        <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label>Message</label>
-                    <textarea placeholder="Type here"></textarea>
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Type here"></textarea>
                 </div>
 
                 <div class="checkbox-group">
