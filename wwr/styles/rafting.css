@@ -158,9 +158,15 @@ textarea {
     display: flex;
     flex-direction: column;
     gap: 6px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 .radio-group label {
     font-size: 13px;
+    grid-column: 2/2;
+}
+.radio-group input {
+  grid-column: 1/1;
 }
 .checkbox-group {
     margin: 15px 0 20px 150px;
