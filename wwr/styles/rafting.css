@@ -19,25 +19,24 @@ header, main, footer {
   width: 840px;
   margin: 0 auto;
 }
-h1, h2 {
+h1,h2 {
   font-family: var(--heading-font);
-  color: var(--primary-color);
 }
-nav, p, section, article {
+nav,section, article {
   margin: 16px;
   padding: 8px;
 }
 .socialmedia a {
     text-decoration: none;
 }
-.hero {
+/*.hero {
   position: relative;
 }
 .hero img {
   display: block;
   width: 100%;
   height: auto;
-}
+}*/
 h1 {
   top: 20px;
   width: 100%;
@@ -47,7 +46,12 @@ h1 {
   background-color: var(--accent1-color);
   color: white;
 }
-.hero article {
+.contact p {
+  color: black;
+  text-align: center;
+  margin: 5px;
+}
+/*.hero article {
   position: absolute;
 }
 .hero h1 {
@@ -68,9 +72,9 @@ article {
   padding: 10px;
   border: 1px solid black;
   bottom: 10px;
-}
+}*/
 h2{
-  background-color: var(--secondary-color);
+  color: black;
   text-align: center;
   padding: 10px;
 }
@@ -90,7 +94,7 @@ nav ul {
   display: flex;
   justify-content: space-around;
 }
-section div {
+/*section div {
   display: flex;
   flex-direction: row;
 }
@@ -98,7 +102,7 @@ section div img {
   width: 200px;
   height: auto;
   margin: 10px;
-}
+}*/
 figure img {
   width: 120px;
 }
@@ -107,7 +111,6 @@ aside {
   flex-direction: row ;
   justify-content: space-between;
   margin-top : 10px;
-
 }
 footer {
   background-color: var(--accent1-color);
@@ -115,4 +118,65 @@ footer {
   text-align: center;
   display: flex;
   flex-direction: row;
+}
+.map {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+iframe {
+  max-width: 400px;
+  grid-template-columns: 1fr;
+}
+.contact-form {
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.form-group {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+.form-group label {
+    width: 150px;
+    font-size: 14px;
+    margin-left: 50px;
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 250px;
+    padding: 6px;
+    border: 1px solid #999;
+    font-size: 13px;
+}
+textarea {
+    height: 80px;
+    resize: none;
+}
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.radio-group label {
+    font-size: 13px;
+}
+.checkbox-group {
+    margin: 15px 0 20px 150px;
+    font-size: 13px;
+}
+button {
+    padding: 8px 25px;
+    border: 1px solid #999;
+    background: #eee;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 150px;
+}
+section {
+  background-color: var(--secondary-color);
+}
+figcaption {
+  color: black;
 }
