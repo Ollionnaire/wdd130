@@ -1,0 +1,40 @@
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+ }
+ header {
+    color: #fff;
+    background-color: #433c3c;
+    max-width: 600px;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+ }
+ h1 {
+    text-align: center;
+ }
+ img {
+    width: 45%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+ }
+section {
+    width: 45%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #847c7c;
+ }
+ h2 {
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #000000;
+ }
+ footer {
+    color: #fff;
+    background-color: #433c3c;
+    max-width: 600px;
+    text-align: center;
+    padding: 0 200px 0 200px;
+ }
