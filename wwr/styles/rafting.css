@@ -3,7 +3,6 @@
   --secondary-color: #69ff80b6; /* pale green */
   --accent1-color: #000873; /* dark blue */
   --accent2-color: #005c09; /* dark green */
-  --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
 }
 
@@ -47,7 +46,7 @@ nav, p, section, article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
   position: absolute;
   top: 20px;
   width: 100%;
@@ -58,7 +57,7 @@ h1 {
   color: #fff; /* white text – make sure there is enough contrast with the background-color */
 }
 
-article {
+.hero article {
     position: absolute;
     background-color: rgba(74, 51, 51, 0.349);
     bottom: 15px;
@@ -89,3 +88,4 @@ footer {
 footer p {
     padding: 0px;
 }
+
