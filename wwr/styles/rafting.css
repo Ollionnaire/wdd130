@@ -27,6 +27,7 @@ footer {
 header {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background-color: var(--accent2-color);
 }
 
 nav ul {
@@ -130,8 +131,8 @@ h2 {
   max-width: 150px;
   height: 100px;
   object-fit: cover;
-  display: block;
-  margin: 0 auto;
+  display: block; 
+  margin: 0 auto; 
 }
 
 .adventures figcaption {
@@ -165,3 +166,13 @@ footer p {
   height: 40px;
 }
 
+.employee img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+form {
+  display: grid;
+  grid-column: 1/6;
+}
